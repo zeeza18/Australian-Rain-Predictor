@@ -58,7 +58,7 @@ pyparsing==2.4.7
 pyrsistent
 python-dateutil
 pytz
-pywinpty
+pywinpty==0.5.7
 pyzmq
 qtconsole==5.0.2
 QtPy==1.9.0
