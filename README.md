@@ -29,11 +29,11 @@ python app.py
 ```
 ## Project Structure
 
-![Home](githubimgs\landingpage.png)
+![Home](githubimgs/landingpage.png)
 
 ![Predictor1](githubimgs/predictor.png)
 
-[!Predictor2](githubimgs\predictor1.png)
+[!Predictor2](githubimgs/predictor1.png)
 ## Fields used in the project
 Here is a list of fields used in the dataset:
 
