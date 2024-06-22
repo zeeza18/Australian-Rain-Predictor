@@ -85,7 +85,7 @@ Here is a list of fields used in the dataset:
 . RainTomorrow: The target variable indicating whether it will    rain tomorrow (Yes/No).
 ## Heroku Link
 
-https://flight-price-predictor-f8bcaf1fecc5.herokuapp.com/
+[https://flight-price-predictor-f8bcaf1fecc5.herokuapp.com/](https://australian-rain-predictor-5dd618cf3b01.herokuapp.com/)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
