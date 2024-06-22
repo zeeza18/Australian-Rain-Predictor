@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Brain</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style1.css')}}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+        </div>
+        <h2><a href="#" class="logo">Rainy Brain</a></h2>
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#about">About Rainy Brain</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#info">Developer</a>
+          <a href="/predict">Predictor</a>
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2>Plant Trees <br><span>Save Rain</span></h2>
+          <p> "Plant trees to bring the rains and get rid of the summer's heat.” - Trees help reduce and moderate the temperature and climate, which is why it is so important that we have more of them</p>
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/vasanth-p-90826218b/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Vasanthengineer4949"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/V51430"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Rainy Brain</h2>
+      <p class="about-content" style="text-align: center;">
+        Rainy Brain is a web application with a Machine Learning model that predicts whether it
+         will rain the next day, based on the Rain Prediction in Australia dataset. The project's code is 
+         available in my <a href="https://github.com/zeeza18/Australian-Rain-Predictor.git" 
+         style="color: black; text-decoration: none; font-weight: bold;">
+          GitHub repository</a>. Over 80% of Australia receives less than 600 mm of annual rainfall, 
+         the lowest among all continents except Antarctica. For example, areas near Lake Eyre receive only about 81 mm
+         yearly, while the Australian desert averages between 81 and 250 mm. Despite the low rainfall, thunderstorms are fairly 
+         common, with 15 to 20 annually. In southern Australia, westerly winds and rain-bearing cold fronts are 
+         typical in winter, causing frosts inland but mild temperatures near the coast. Summers are hot and dry with
+         coastal breezes, but prolonged dry spells can lead to bushfires, especially in Victoria and New South Wales.
+          Northern Australia experiences a wet season from October to April due to the monsoon, bringing showers, 
+          thunderstorms, and occasionally heavy rainfall from tropical cyclones, reaching further inland.
+      </p>
+    </section>
+
+    <section id="dashboard">
+      <h2>Dashboard</h2>
+      <p>This dashboard was created using PowerBI, a software product by Microsoft. 
+        I've included images of the dashboard here, as PowerBI requires an organizational account. 
+        To view the interactive visualizations, you can download my 
+        <a href="../static/rain.pbix" style="color: black; text-decoration: none; font-weight: bold;">PowerBI</a> dashboard file. 
+        You'll need PowerBI software to open the file. Dashboards like this one help provide a better
+         understanding of the dataset and reveal valuable insights.</p>
+      <img class="dashboard-image" src="../static/dashboard.png" alt="1">
+      <div>
+        <img src="../static/1.png" alt="1">
+        <img src="../static/3.png" alt="3">
+        <img src="../static/4.png" alt="4">
+        <img src="../static/5.png" alt="5">
+        <img src="../static/6.png" alt="6">
+        <img src="../static/7.png" alt="7">
+        <img src="../static/8.png" alt="8">
+        <img src="../static/9.png" alt="9">
+      </div>
+    </section>
+    
+    <section id="info">
+      <div>
+        <img src="../static/zeezaprofile.jpg" alt="zeeza">
+      </div>
+      <div>
+        <h2>Developer</h2>
+        <p class="about-content" style="text-align: center;"> 
+          Hi, I'm Azeez, aspiring to become an AI Engineer 🚀 based in Bengaluru, India. 
+          I have hands-on experience as an AI Engineer Intern, working for six months at AI Robosoft. 
+          During my internship, I focused on projects involving Machine Learning, Deep Learning, 
+          Natural Language Processing, and Computer Vision. Currently, I'm actively engaged 
+          in self-paced projects such as Rain Prediction, Flight Prediction, and Skin Disease Analyzer. 
+          These projects allow me to apply my skills and deepen my understanding of AI applications. 
+          Outside of work, I enjoy gaming and watching YouTube. Feel free to connect
+           with me through my social media links below</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Developed by Azeez
+      </p> 
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/mohammed-azeezulla-b11b3b2b8/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/zeeza18/"><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
